@@ -1,3 +1,33 @@
+## browser sync
+
+╰─$ browser-sync
+```sh
+Commands:
+  start   Start the server
+  init    Create a configuration file
+  reload  Send a reload event over HTTP protocol
+  recipe  Generate the files for a recipe
+
+Options:
+  --version  Show version number                        [boolean]
+
+For help running a certain command, type <command> --help
+  browser-sync start --help
+
+You can run a static server by providing a path(s) directly
+  browser-sync app/src app/tmp
+
+If the directory contains a 'index.html' file, you can omit any
+input
+  browser-sync
+
+You can run the proxy in this manner too
+  browser-sync https://example.com
+
+To run a proxy, whilst also serving static files
+  browser-sync https://example.com htdocs/themes/example
+```
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/1ce8erg0/angular-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
