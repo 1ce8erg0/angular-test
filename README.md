@@ -1,6 +1,35 @@
+# Angular template.html
+
+```javascript
+(function() {
+    angular.module('myFirstApp', [])
+
+    .controller('myFirstController', function() {
+
+    });
+
+})();
+```
+
+
+```html
+(function() {
+    angular.module('myFirstApp', [])
+
+    .controller('myFirstController', function() {
+
+    });
+
+})();
+```
+
 ## browser sync
 
-╰─$ browser-sync
+`browser-sync start --server --directory --files`
+
+
+**╰─$ browser-sync**
+
 ```sh
 Commands:
   start   Start the server
